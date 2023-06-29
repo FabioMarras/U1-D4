@@ -1,21 +1,5 @@
 /* IMPOSTAZIONI GENERALI */
-
-/* HEADER */
-
-/* MAIN */
-
-/* ELEMENTI NEL MAIN - ARTICLE */
-
-/* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -23,6 +7,76 @@ body {
 body {
   background-image: url(/assets/img/sfondo.png);
   font-size: 20px;
+  width: 500px;
+}
+
+/* HEADER */
+header {
+  margin: 20px;
+  background-color: rgb(21, 101, 121);
+  color: white;
+  padding-block: 35px;
+  text-align: center;
+}
+
+/* MAIN */
+
+main {
+  margin: 20px;
+  background-color: white;
+  border: solid 1px;
+}
+.video {
+  width: 400;
+  height: 400;
+  margin-inline: 15px;
+  margin-top: 15px;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+thead {
+  padding-inline: 10px;
+  background-color: rgb(14, 106, 211);
+  border: solid 1px;
+  color: white;
+  text-align: center;
+}
+tbody {
+  border-bottom: solid 2px;
+  text-align: center;
+}
+
+.zebra {
+  background-color: rgb(196, 195, 195);
+}
+table {
+  margin-inline: 50px;
+  margin-top: 10px;
+}
+
+th {
+  height: 60px;
+  vertical-align: middle;
+  width: 150px;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+.bg-mg {
+  background-color: cadetblue;
+  margin: 10px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  margin: 20px;
+  background-color: rgb(21, 101, 121);
+  color: white;
+  padding-block: 35px;
+  text-align: center;
 }
 
 .bg-text {
@@ -33,14 +87,10 @@ body {
   text-align: center;
 }
 
-main {
-  margin: 20px;
-  background-color: white;
-  border: solid 1px;
-}
-
 h1 {
   font-size: 35px;
+  text-align: center;
+  padding: 5px;
 }
 .margin-top {
   margin: auto;
@@ -55,25 +105,6 @@ p {
 ul,
 ol {
   margin-left: 50px;
-}
-
-.video {
-  padding-left: 15px;
-}
-
-thead {
-  padding-inline: 10px;
-  background-color: rgb(181, 181, 248);
-  border: solid 1px;
-}
-tbody {
-  border-bottom: solid 2px;
-}
-
-.novit {
-  background-color: cadetblue;
-  margin: 10px;
-  text-align: center;
 }
 
 .tx-end {

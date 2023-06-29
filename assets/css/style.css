@@ -22,13 +22,15 @@ body {
 
 body {
   background-image: url(/assets/img/sfondo.png);
+  font-size: 20px;
 }
 
 .bg-text {
   margin: 20px;
   background-color: rgb(21, 101, 121);
   color: white;
-  padding-inline: 250px;
+  padding-block: 35px;
+  text-align: center;
 }
 
 main {
@@ -41,7 +43,7 @@ h1 {
   font-size: 35px;
 }
 .margin-top {
-  margin-top: 15px;
+  margin: auto;
 }
 iframe {
   border-radius: 25px;
@@ -53,4 +55,27 @@ p {
 ul,
 ol {
   margin-left: 50px;
+}
+
+.video {
+  padding-left: 15px;
+}
+
+thead {
+  padding-inline: 10px;
+  background-color: rgb(181, 181, 248);
+  border: solid 1px;
+}
+tbody {
+  border-bottom: solid 2px;
+}
+
+.novit {
+  background-color: cadetblue;
+  margin: 10px;
+  text-align: center;
+}
+
+.tx-end {
+  text-align: end;
 }

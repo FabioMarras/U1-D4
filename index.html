@@ -20,25 +20,27 @@
       </div>
       <nav>
         <ul class="margin-top">
-          <li><a href="index.html" title="Home Page">Home</a></li>
-          <li><a href="articoli.html" title="Elenco degli articoli tecnici pubblicati">Articoli</a></li>
-          <li><a href="contatti.html" title="Candidati inviando un tuo cv">Job</a></li>
+          <a href="#">&rArr; Home &lArr;</a>
+          <br />
+          <a href="#">&rArr; Articoli &lArr;</a>
+          <br />
+          <a href="#">&rArr; HJob &lArr;</a>
         </ul>
       </nav>
     </header>
     <main>
       <article>
         <h1>Come creare un template per i post</h1>
-        <p class="margin-top">
+        <p>
           <i class="fas fa-pen-square"></i>di Mario Rossi -
           <span> <i class="fas fa-clock"></i>pubblicato il 25-10-2020</span>
         </p>
-        <p class="margin-top">
+        <p>
           La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le
           <strong>parti comuni</strong> da applicare a tutte le pagine
         </p>
-        <p class="margin-top">Le varie aree saranno quindi suddivise in:</p>
-        <ul class="margin-top">
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
           <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
           <li>Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo principale)</li>
           <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
@@ -106,6 +108,7 @@
         </p>
 
         <iframe
+          class="video"
           width="420"
           height="300"
           src="https://www.youtube.com/embed/dvOvHXruEDM"
@@ -115,49 +118,52 @@
         ></iframe>
 
         <section>
-          <h2>Novità</h2>
-          <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+          <div class="novit">
+            <h2>Novità</h2>
+            <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
 
-          <form method="POST" action="elabora_form.php">
-            <fieldset>
-              <input type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required />
-              <button type="submit">Iscriviti!</button>
-            </fieldset>
-          </form>
+            <form method="POST" action="elabora_form.php">
+              <fieldset>
+                <input type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required />
+                <button type="submit">Iscriviti!</button>
+              </fieldset>
+            </form>
+          </div>
         </section>
       </article>
 
       <aside>
-        <h2>Articoli correlati</h2>
-        <div>
+        <h2 style="text-align: center">Articoli correlati</h2>
+        <div class="novit">
           <a href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato"
             >Validare il codice HTML</a
           >
           <p>Categoria: develop</p>
-          <p>Data: 18-9-2020</p>
+          <p class="tx-end">Data: 18-9-2020</p>
         </div>
 
-        <div>
+        <div class="novit">
           <a href="post3.html" title="Passaggi guidati per controllare e correggere tutto il codice sviluppato"
             >Correggere la sintassi</a
           >
           <p>Categoria: develop</p>
-          <p>Data: 16-9-2020</p>
+          <p class="tx-end">Data: 16-9-2020</p>
         </div>
 
-        <div>
+        <div class="novit">
           <a href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella pagina</a>
           <p>Categoria: ottimizzazione</p>
-          <p>Data: 30-9-2020</p>
+          <p class="tx-end">Data: 30-9-2020</p>
         </div>
       </aside>
     </main>
 
     <hr />
 
-    <footer>
+    <footer class="bg-text">
       <p>Blog Epicode &copy;2021</p>
       <address>
+        <br />
         Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
         <a href="mailto:info@epicode.school" title="contattami per informazioni/lavoro/privacy">info@epicode.school</a>
       </address>
